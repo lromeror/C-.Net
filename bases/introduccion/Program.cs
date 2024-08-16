@@ -67,3 +67,41 @@ string[] personas=new string[]{"Luis","Fernando","Romero","Rodriguez","Jose"};
 
 for (int i = 0; i < personas.Length; i++)
     Console.WriteLine("nombre: "+personas[i]);
+
+/*switch (Char.ToLower(letra))
+{
+    case 'a':
+    case 'e':
+    case 'i':
+    case 'o':
+    case 'u':
+
+    default:
+}*/
+/*
+string letra = Console.ReadLine();
+resultado=letra switch //se evalua la letra
+{
+    'a'=>"La letra es una vocal",
+    'i'=>"La letra es una vocal",
+    'e'=>"La letra es una vocal",
+    'u'=>"La letra es una vocal",
+    'o'=>"La letra es una vocal",
+    _=>"La letra no es una vocal",
+};
+Console.WriteLine(resultado);*/
+Persona per1=new Persona(){ 
+    Id=1,
+    Nombres="Luis Fernando",
+    Apellidos="Romero Rodriguez",
+    genero=Genero.Masculino
+
+};
+per1.direccion.numero="125";
+per1.direccion.provincia="Guayas";
+per1.direccion.nombreCalle="Calle CH";
+per1.direccion.ciudad="Guayaquil";
+per1.direccion.pais="Ecuador";
+
+
+Console.WriteLine($"La persona: {per1.nombreComleto} de genero {per1.genero}");
