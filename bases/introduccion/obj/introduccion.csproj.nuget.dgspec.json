@@ -4,6 +4,65 @@
     "C:\\Users\\Jonanyu\\Desktop\\DotNet\\bases\\introduccion\\introduccion.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Jonanyu\\Desktop\\DotNet\\bases\\Data\\Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jonanyu\\Desktop\\DotNet\\bases\\Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "C:\\Users\\Jonanyu\\Desktop\\DotNet\\bases\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\Jonanyu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jonanyu\\Desktop\\DotNet\\bases\\Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jonanyu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Jonanyu\\Desktop\\DotNet\\bases\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\Jonanyu\\Desktop\\DotNet\\bases\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Jonanyu\\Desktop\\DotNet\\bases\\introduccion\\introduccion.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -23,6 +82,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\Jonanyu\\Desktop\\DotNet\\bases\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\Jonanyu\\Desktop\\DotNet\\bases\\Data\\Data.csproj"
+              },
               "C:\\Users\\Jonanyu\\Desktop\\DotNet\\bases\\Models\\Models.csproj": {
                 "projectPath": "C:\\Users\\Jonanyu\\Desktop\\DotNet\\bases\\Models\\Models.csproj"
               }
