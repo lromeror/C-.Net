@@ -14,5 +14,11 @@ namespace Models
         public string provincia {get; set;}
         public String pais {get; set;}
 
+        public string DireccionCompleta{
+            get{
+                return $"{numero} {nombreCalle},{ciudad}";
+            }
+        }
+
     }
 }
