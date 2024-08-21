@@ -12,7 +12,7 @@ namespace Models
         public string nombreCalle {get; set;}
         public string ciudad {get;set;}
         public string provincia {get; set;}
-        public String pais {get; set;}
+        public string pais {get; set;}
 
         public string DireccionCompleta{
             get{
