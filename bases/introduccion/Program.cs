@@ -1,4 +1,6 @@
-﻿using System.Security.Cryptography;
+﻿using System.Reflection.PortableExecutable;
+using System.Security.Cryptography;
+using Data;
 using Models;
 
 int x = 0;
@@ -95,13 +97,56 @@ Persona per1=new Persona(){
     Nombres="Luis Fernando",
     Apellidos="Romero Rodriguez",
     genero=Genero.Masculino
-
 };
-per1.direccion.numero="125";
+per1.direccion.numero="125";    
 per1.direccion.provincia="Guayas";
 per1.direccion.nombreCalle="Calle CH";
 per1.direccion.ciudad="Guayaquil";
 per1.direccion.pais="Ecuador";
-
-
 Console.WriteLine($"La persona: {per1.nombreComleto} de genero {per1.genero}");
+//public delegate int Calcular(int a,int b);
+
+
+
+//TestDelegate test= new TestDelegate();
+//Calcular c1=new Calcular(test.Sumar);
+
+// Func Delegate, primero es lo que se retorna, despues los parametros de input
+Func<int,int,int> sumaFunc=(a,b)=> a+b;
+int result=sumaFunc(5,4);
+Console.WriteLine($"Resultado es igual a:{result}");
+
+//Action delegate, solo necesita hacer la accion no se retorna nada
+Action<string> saludoAction=nombre=>Console.WriteLine($"Hola,{nombre}");
+saludoAction("Luis Romero");
+
+
+Persona per2=new Persona(){ 
+    Id=2,
+    Nombres="Jose Luis",
+    Apellidos="Romero",
+    genero=Genero.Masculino
+
+};
+per2.direccion.numero="125csdcd";
+per2.direccion.provincia="Guayas";
+per2.direccion.nombreCalle="Calle C";
+per2.direccion.ciudad="Guayaquil";
+per2.direccion.pais="Ecuador";
+
+ImplementarPersona imp=new ImplementarPersona();
+imp.Agregar(per1);
+imp.Agregar(per2);
+
+Console.WriteLine($"La cantidad de Personas ingresadas es:{imp.Total()}");
+
+Persona personaId=imp.Obtener(2);
+Console.WriteLine($"La persona de id 2 es:{personaId.nombreComleto}");
+
+IEnumerable<Persona> listaPersonas=imp.obtenerTodos();
+foreach (var item in listaPersonas)
+{
+    Console.WriteLine("--------");
+    Console.WriteLine($"Persona {item.Id}");
+    Console.WriteLine($"Nombre: {item.nombreComleto}");
+}

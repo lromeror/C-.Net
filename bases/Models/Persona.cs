@@ -12,7 +12,7 @@ namespace Models
         public string Apellidos {get;set;}
 
         public Genero genero {get;set;}
-         public Direccion direccion{get; set;}
+         public Direccion direccion{get; set;}= new Direccion();
 
         public string nombreComleto{
             get{

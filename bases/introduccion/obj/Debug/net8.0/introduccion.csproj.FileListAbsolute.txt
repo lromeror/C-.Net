@@ -35,3 +35,5 @@ C:\Users\Jonanyu\Desktop\DotNet\bases\introduccion\obj\Debug\net8.0\refint\intro
 C:\Users\Jonanyu\Desktop\DotNet\bases\introduccion\obj\Debug\net8.0\introduccion.pdb
 C:\Users\Jonanyu\Desktop\DotNet\bases\introduccion\obj\Debug\net8.0\introduccion.genruntimeconfig.cache
 C:\Users\Jonanyu\Desktop\DotNet\bases\introduccion\obj\Debug\net8.0\ref\introduccion.dll
+C:\Users\Jonanyu\Desktop\DotNet\bases\introduccion\bin\Debug\net8.0\Data.dll
+C:\Users\Jonanyu\Desktop\DotNet\bases\introduccion\bin\Debug\net8.0\Data.pdb
