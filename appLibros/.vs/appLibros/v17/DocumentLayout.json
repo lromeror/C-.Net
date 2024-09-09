@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Jonanyu\\Desktop\\Dotnet\\appLibros\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{14377F6C-28B4-41B4-8768-7B814E449FFE}|Models\\Models.csproj|c:\\users\\jonanyu\\desktop\\dotnet\\applibros\\models\\entidades\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14377F6C-28B4-41B4-8768-7B814E449FFE}|Models\\Models.csproj|solutionrelative:models\\entidades\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14377F6C-28B4-41B4-8768-7B814E449FFE}|Models\\Models.csproj|c:\\users\\jonanyu\\desktop\\dotnet\\applibros\\models\\entidades\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14377F6C-28B4-41B4-8768-7B814E449FFE}|Models\\Models.csproj|solutionrelative:models\\entidades\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1AB0C722-89E2-4FC7-8E01-B89D5F622A6F}|API\\API.csproj|c:\\users\\jonanyu\\desktop\\dotnet\\applibros\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AB0C722-89E2-4FC7-8E01-B89D5F622A6F}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{14377F6C-28B4-41B4-8768-7B814E449FFE}|Models\\Models.csproj|c:\\users\\jonanyu\\desktop\\dotnet\\applibros\\models\\models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{14377F6C-28B4-41B4-8768-7B814E449FFE}|Models\\Models.csproj|solutionrelative:models\\models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51A6F04A-7E3C-41EF-B59F-C6614749F19E}|Data\\Data.csproj|c:\\users\\jonanyu\\desktop\\dotnet\\applibros\\data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51A6F04A-7E3C-41EF-B59F-C6614749F19E}|Data\\Data.csproj|solutionrelative:data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1AB0C722-89E2-4FC7-8E01-B89D5F622A6F}|API\\API.csproj|c:\\users\\jonanyu\\desktop\\dotnet\\applibros\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{1AB0C722-89E2-4FC7-8E01-B89D5F622A6F}|API\\API.csproj|solutionrelative:api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AB0C722-89E2-4FC7-8E01-B89D5F622A6F}|API\\API.csproj|c:\\users\\jonanyu\\desktop\\dotnet\\applibros\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1AB0C722-89E2-4FC7-8E01-B89D5F622A6F}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,25 +43,90 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "C:\\Users\\Jonanyu\\Desktop\\Dotnet\\appLibros\\Models\\Entidades\\Libro.cs",
+              "RelativeDocumentMoniker": "Models\\Entidades\\Libro.cs",
+              "ToolTip": "C:\\Users\\Jonanyu\\Desktop\\Dotnet\\appLibros\\Models\\Entidades\\Libro.cs",
+              "RelativeToolTip": "Models\\Entidades\\Libro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T16:43:46.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\Jonanyu\\Desktop\\Dotnet\\appLibros\\Models\\Entidades\\Categoria.cs",
+              "RelativeDocumentMoniker": "Models\\Entidades\\Categoria.cs",
+              "ToolTip": "C:\\Users\\Jonanyu\\Desktop\\Dotnet\\appLibros\\Models\\Entidades\\Categoria.cs",
+              "RelativeToolTip": "Models\\Entidades\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T16:32:43.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Models",
+              "DocumentMoniker": "C:\\Users\\Jonanyu\\Desktop\\DotNet\\appLibros\\Models\\Models.csproj",
+              "RelativeDocumentMoniker": "Models\\Models.csproj",
+              "ToolTip": "C:\\Users\\Jonanyu\\Desktop\\DotNet\\appLibros\\Models\\Models.csproj",
+              "RelativeToolTip": "Models\\Models.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-09T16:31:43.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Jonanyu\\Desktop\\Dotnet\\appLibros\\Data\\AplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Jonanyu\\Desktop\\Dotnet\\appLibros\\Data\\AplicationDbContext.cs",
+              "RelativeToolTip": "Data\\AplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T04:19:40.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Jonanyu\\Desktop\\Dotnet\\appLibros\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Jonanyu\\Desktop\\Dotnet\\appLibros\\API\\appsettings.json",
+              "RelativeToolTip": "API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-09T02:15:38.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Jonanyu\\Desktop\\Dotnet\\appLibros\\API\\Program.cs",
               "RelativeDocumentMoniker": "API\\Program.cs",
               "ToolTip": "C:\\Users\\Jonanyu\\Desktop\\Dotnet\\appLibros\\API\\Program.cs",
               "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T13:17:15.877Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Jonanyu\\Desktop\\Dotnet\\appLibros\\API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "API\\appsettings.Development.json",
               "ToolTip": "C:\\Users\\Jonanyu\\Desktop\\Dotnet\\appLibros\\API\\appsettings.Development.json",
               "RelativeToolTip": "API\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-09-08T12:59:50.97Z",
               "EditorCaption": ""
